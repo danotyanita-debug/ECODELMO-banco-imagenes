@@ -29,6 +29,8 @@ Datos: `data/obras.db` (SQLite) y `data/uploads/` (fotos). **Respáldalos copian
 
 ## Conectar el celular
 
+**Windows:** doble clic en `iniciar.bat` (misma WiFi) o `iniciar-con-internet.bat` (túnel Cloudflare, datos móviles).
+
 ### A) Misma red WiFi (lo más simple)
 Abre en el celular la dirección que imprime `npm start`. Puede que debas permitir Node en el firewall de la PC.
 
