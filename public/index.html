@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f172a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Obras">
+<title>Monitoreo de obras</title>
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/icons/icon-192.png">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header id="top" hidden>
+  <button id="back" class="icon" aria-label="Volver" hidden>‹</button>
+  <h1 id="title">Obras</h1>
+  <a id="syncbadge" href="#/sync" class="badge" hidden></a>
+  <button id="menu" class="icon" aria-label="Menú">⋮</button>
+</header>
+<div id="offline" hidden>Sin conexión — mostrando datos guardados</div>
+<main id="main"><p class="center muted">Cargando…</p></main>
+<div id="sheet" hidden></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="/app.js"></script>
+</body>
+</html>

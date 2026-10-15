@@ -1,0 +1,14 @@
+{
+  "name": "monitoreo-obras",
+  "version": "1.0.0",
+  "description": "App de monitoreo y seguimiento de obras: PWA para el celular + servidor en tu computadora",
+  "private": true,
+  "type": "commonjs",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --no-warnings server/index.js",
+    "dev": "node --no-warnings --watch server/index.js",
+    "icons": "node scripts/gen-icons.js",
+    "test": "node --no-warnings --test test/*.test.js"
+  }
+}
